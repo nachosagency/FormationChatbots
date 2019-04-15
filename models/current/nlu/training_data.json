@@ -26,6 +26,42 @@
         "text": "hey there"
       },
       {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Gigi",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Gigi"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Gigi",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Gigi"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Gigi",
+            "entity": "name"
+          }
+        ],
+        "text": "I'm Gigi"
+      },
+      {
         "intent": "goodbye",
         "text": "bye"
       },

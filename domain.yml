@@ -6,8 +6,17 @@ intents:
   - mood_great
   - mood_unhappy
 
+entities:
+- name
+
+slots:
+  name:
+    type: text
+
 actions:
 - utter_greet
+- utter_name
+- utter_greet_with_name
 - utter_cheer_up
 - utter_did_that_help
 - utter_happy
@@ -17,6 +26,12 @@ actions:
 templates:
   utter_greet:
   - text: "Hey! How are you?"
+
+  utter_name:
+  - text: "Hey there! Tell me your name."
+
+  utter_greet_with_name:
+  - text: "Nice to you meet you {name}. How can I help?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

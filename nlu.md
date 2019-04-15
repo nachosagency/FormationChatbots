@@ -6,6 +6,11 @@
 - good evening
 - hey there
 
+## intent:name
+- My name is [Gigi](name)
+- I am [Gigi](name)
+- I'm [Gigi](name)
+
 ## intent:goodbye
 - bye
 - goodbye

@@ -23,6 +23,10 @@
 * mood_deny
   - utter_goodbye
 
+## say my name
+* name{"name":"Gigi"}
+  - utter_greet_with_name
+
 ## say goodbye
 * goodbye
   - action_joke
