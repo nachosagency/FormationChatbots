@@ -6,6 +6,7 @@ actions:
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- action_joke
 config:
   store_entities_as_slots: true
 entities: []

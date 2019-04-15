@@ -3,6 +3,7 @@
   - utter_greet
 * mood_great
   - utter_happy
+  - utter_goodbye
 
 ## sad path 1
 * greet
@@ -24,4 +25,5 @@
 
 ## say goodbye
 * goodbye
+  - action_joke
   - utter_goodbye
